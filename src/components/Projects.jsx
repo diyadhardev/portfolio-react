@@ -24,7 +24,7 @@ const projectsData = [
     tags: ["Express", "Node", "Angular"],
     links: {
       live: "",
-      github: "https://github.com/Vihaan-Yagnik/pyhton-video-to-summary",
+      github: "https://github.com/diyadhardev/Expense-tracker-app",
     },
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     tags: ["Angular", "DaisyUI", "Motion.dev", "Matter.js"],
     links: {
       live: "",
-      github: "https://github.com/Vihaan-Yagnik/PortFolio",
+      github: "https://github.com/diyadhardev/portfolio-react",
     },
   },
 ];

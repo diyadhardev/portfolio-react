@@ -1,10 +1,14 @@
 // src/components/Footer.jsx
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import leetcodeIcon from "../../public/assets/leetcode.png";
 
-const Footer = ({id}) => {
+const Footer = ({ id }) => {
   return (
-    <footer id={id} className="footer footer-center p-10 bg-base-300 text-base-content rounded-t-xl">
+    <footer
+      id={id}
+      className="footer footer-center p-10 bg-base-300 text-base-content rounded-t-xl"
+    >
       {/* Main container for the connect section */}
       <div className="flex flex-col items-center gap-4">
         {/* Styled "Let's Connect" text */}
@@ -13,7 +17,7 @@ const Footer = ({id}) => {
         {/* Social Links */}
         <div className="grid grid-flow-col gap-6">
           <a
-            href="https://github.com/Vihaan-Yagnik"
+            href="https://github.com/diyadhardev"
             target="_blank"
             rel="noopener noreferrer"
             className="link link-hover transition-transform duration-300 hover:scale-110"
@@ -22,7 +26,7 @@ const Footer = ({id}) => {
             <FaGithub size={28} />
           </a>
           <a
-            href="https://www.linkedin.com/in/vihaan-yagnik-7aa907269/"
+            href="https://www.linkedin.com/in/diya-dhardev-470b3124b/"
             target="_blank"
             rel="noopener noreferrer"
             className="link link-hover transition-transform duration-300 hover:scale-110"
@@ -31,20 +35,35 @@ const Footer = ({id}) => {
             <FaLinkedin size={28} />
           </a>
           <a
-            href="https://x.com/VihaanYagnik"
+            href="https://x.com/diya_dhardev"
             target="_blank"
             rel="noopener noreferrer"
             className="link link-hover transition-transform duration-300 hover:scale-110"
             aria-label="Twitter Profile"
           >
             <FaTwitter size={28} />
+          </a>{" "}
+          <a
+            href="https://leetcode.com/u/diyadhardev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link link-hover transition-transform duration-300 hover:scale-110"
+            aria-label="Leetcode Profile"
+          >
+            <img
+              src={leetcodeIcon}
+              alt="LeetCode"
+              width="28"
+              height="28"
+              className="object-contain"
+            />
           </a>
         </div>
       </div>
 
       {/* Copyright */}
       <div className="mt-6">
-        <p>Copyright © 2025 - Vihaan Yagnik</p>
+        <p>Copyright © 2026 - Diya Dhardev</p>
       </div>
     </footer>
   );

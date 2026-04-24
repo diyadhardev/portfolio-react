@@ -9,22 +9,21 @@ const projectsData = [
     title: "OutReachHub (CRM) Platform",
     image: "/assets/project1.png",
     description: `It is a SaaS platform designed for businesses to manage their contacts, create simple message templates, and simulate targeted campaigns`,
-    tags: ["React", "Nest.js", "MongoDB", "MUI"],
+    tags: ["Angular", "Nest.js", "MongoDB", "Express"],
     links: {
-      live: "http://vihaan-yagnik.s3-website.ap-south-1.amazonaws.com/",
-      github: "https://github.com/Kevit-Vihaan-Yagnik/OutReachHub-Fullstack",
+      live: "",
+      github: "https://github.com/diyadhardev/OutReachHub-Fullstack",
     },
-
   },
   {
     id: 2,
-    title: "Youtube video to summary app",
+    title: "Expense tracker app",
     image: "/assets/project2.png",
     description:
-      "A Python project that helps student to get detail notes for a specific youtube video so student can focus on getting things done.",
-    tags: ["Python", "Streamlit", "Gemini API"],
+      "A comprehensive personal finance application using a technology as MEAN stack to help users track and manage their finances",
+    tags: ["Express", "Node", "Angular"],
     links: {
-      live: "https://vid-to-summary.streamlit.app/",
+      live: "",
       github: "https://github.com/Vihaan-Yagnik/pyhton-video-to-summary",
     },
   },
@@ -34,15 +33,15 @@ const projectsData = [
     image: "/assets/project3.png",
     description:
       "A personal portfolio website to showcase my skills and projects, featuring interactive animations and a clean design.",
-    tags: ["React", "Vite", "DaisyUI", "Motion.dev", "Matter.js"],
+    tags: ["Angular", "DaisyUI", "Motion.dev", "Matter.js"],
     links: {
-      live: "https://vihaan-yagnik-portfolio.netlify.app/",
+      live: "",
       github: "https://github.com/Vihaan-Yagnik/PortFolio",
     },
   },
 ];
 
-const Projects = ({id}) => {
+const Projects = ({ id }) => {
   return (
     <section id={id} className="py-20 bg-base-100">
       <div className="container mx-auto px-4 md:px-8">
